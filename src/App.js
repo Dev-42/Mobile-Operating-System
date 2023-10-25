@@ -1,7 +1,12 @@
 import "./App.css";
+import Mobile from './components/MobileOS'
 
 function App() {
-  return <div>{/* add MObileOs component here */}</div>;
+  return (
+    <div className = "App">
+      <Mobile />
+    </div>
+  )
 }
 
 export default App;
